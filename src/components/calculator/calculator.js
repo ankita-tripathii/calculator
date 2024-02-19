@@ -1,9 +1,17 @@
-import React from 'react'
+import React, {useState} from 'react'
 import "./calculator.css"
 import * as math from 'mathjs';
 
 export default function Calculator() {
 
+  const [result, setresult] = useState('');
+  const [selectedoperator, setselectedoperator] = useState('');
+
+  const handleClick = (e)=>{
+
+    
+
+  };
 
 	return(
         
